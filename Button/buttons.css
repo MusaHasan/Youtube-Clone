@@ -1,3 +1,11 @@
+body {
+    padding: 10px;
+    padding-bottom: 1000px;
+}
+
+.button-class{
+    margin-bottom: 8px ;
+}
 .Subscribe, .Join{
 font-family: Arial;
 margin: 0 10px 0 0;
@@ -49,6 +57,7 @@ color: white;
     font-weight: 600;
     background-color: rgb(29, 155, 240) ;
     cursor: pointer;
+    margin-right: 6px;
 
 
 }
@@ -57,4 +66,30 @@ color: white;
 }
 .Tweet:active {
     opacity: 0.7;
+}
+
+.Request-Now{
+    height: 36px;
+    width: 120px;
+    color: white;
+    background-color: black;
+}
+.link{
+    color: rgb(0,113,133);
+}
+.pricce{
+    color: rgb(0, 118, 0);
+    font-weight: 900;
+}
+.add-to-cart, .buy-now{
+    width: 130px;
+    border: none;
+    height: 30px;
+    border-radius: 15px;
+}
+.add-to-cart{
+    background-color: rgb(255, 215, 20);
+}
+.buy-now{
+    background-color: rgb(255, 164, 28);
 }
