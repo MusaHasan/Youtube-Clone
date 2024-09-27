@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+padding:  50px 10px;
+padding-bottom: 500px;
+}
+
+.youtube-section{
+    margin-bottom: 50px;
+}
+.youtube-icon{
+    color: red;
+    width: 26px; 
+}
+
+.title{
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 5px ;
+}
+.views-text, .author-text, .video-dis-text{
+font-size: 14px;
+color: #606060;
+}
+.author-text{
+margin: 5px 0;
+
+}
+.video-dis-text{
+width: 280px;
+line-height: 20px;
+
+}
+
+.apple-icon{
+    width: 24px;
+    height: 24px;
+    color: rgb(149, 149, 149);
+    margin-bottom: 5px;
+}
+.shop-now-text{
+    color: white;
+    background-color: rgb(227, 65, 64);
+    font-size: 14px;
+    text-align: center;
+    padding: 20px ;
+}
+
+.shop-now-link:hover{
+    text-decoration: underline;
+}
