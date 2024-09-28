@@ -1,7 +1,44 @@
-*{
-    padding: 0;
-    margin: 0;
+.header{
+    height: 57px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
-body{
-    font-family: Roboto, Arial, sans-serif;
+.first-section{
+    display: flex;
+}
+.hamburger-menu-icon{
+    width: 25px;
+    margin: 0 24px ;
+}
+.youtube-logo-icon{
+    width: 90px;
+}
+
+.second-section{
+    background-color: lightblue;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 40px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+    flex: 1;
+    height: 34px;
+    padding-left: 6px ;
+}
+
+.search-bar::placeholder{
+    font-size: 15px;
+}
+
+.search-button-icon, .search-voice-icon{
+    width: 25px;
+}
+
+.third-section{
+    background-color: rgb(239, 196, 229);
+    width: 150px;
 }
