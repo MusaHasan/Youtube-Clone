@@ -22,4 +22,7 @@
 .side-bar-link img{
     height: 24px;
 }
+.side-bar-link div{
+    font-size: 10px;
+}
 
