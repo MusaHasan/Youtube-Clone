@@ -7,9 +7,20 @@
 }
 .video-thamnail{
     margin-bottom: 8px;
+    position: relative;
 }
 .img-thamnail{
     width: 100%;
+}
+.video-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 5px 8px;
+    bottom: 8px;
+    right: 5px;
+    font-size: 12px;
+    font-weight: 500;
 }
 .video-title{
     font-size: 14px;

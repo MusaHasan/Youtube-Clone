@@ -1,0 +1,25 @@
+.side-navbar{
+    position: fixed;
+    top: 57px;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    background-color: white;
+}
+
+.side-bar-link{
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.side-bar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.side-bar-link img{
+    height: 24px;
+}
+

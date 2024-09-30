@@ -8,6 +8,8 @@
     left: 0;
     right: 0;
     background-color: white;
+    border-bottom:1px solid rgb(219, 219, 219) ;
+    z-index: 100;
 }
 .first-section{
     display: flex;
@@ -80,4 +82,20 @@ width: 24px;
 .profile-icon{
     width: 34px;
     border-radius: 17px;
+}
+.notifi-container{
+    position: relative;
+}
+.notifi-number{
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border-radius: 15px;
+    padding-top: 3px;
+    font-size: 12px;
+    top: -4px;
+    right: -9px;
 }
