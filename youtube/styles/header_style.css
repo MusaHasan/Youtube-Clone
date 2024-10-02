@@ -55,6 +55,9 @@
     margin-left: -3px;
     margin-right: 10px;
     padding-top: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 .search-button-icon, .search-voice-icon{
     width: 25px;
@@ -66,6 +69,33 @@
     border: none;
     border-radius: 19px;
     padding-top: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.upload-icon-section,.apps-icon-section{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+.tooltip{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding: 8px 4px ;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -30px;
+    pointer-events: none;
+    opacity: 0;
+}
+
+.search-button:hover .tooltip,
+.upload-icon-section:hover .tooltip,
+.apps-icon-section:hover .tooltip,
+.notifi-container:hover .tooltip,
+.search-button-voice:hover .tooltip{
+    opacity: 1;
 }
 
 .third-section{
@@ -85,6 +115,8 @@ width: 24px;
 }
 .notifi-container{
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .notifi-number{
     position: absolute;
