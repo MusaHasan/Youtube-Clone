@@ -11,6 +11,7 @@
 }
 .img-thamnail{
     width: 100%;
+    border-radius: 8px;
 }
 .video-time{
     position: absolute;
